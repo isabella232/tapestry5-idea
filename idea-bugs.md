@@ -33,8 +33,8 @@ Issue C
  - Error Message: Cannot resolve symbol 'GroovyLibraryMappedPage'
  - Bug: '' (application) path on org.apache.tapestry5.services.LibraryMapping is not supported
   - Contribute Component Class Resolver with `configuration.add(new LibraryMapping("", "com.example.checked"))`
- - Note: LibraryMappings using an non-empty string work correctly (line 12)
- - Workaround: None
+ - Workaround: Do not use a empty-string prefix (e.g. ""); note that an empty-string is an explicitly supported construct in Tapestry
+  - [Javadoc](http://tapestry.apache.org/current/apidocs/org/apache/tapestry5/services/LibraryMapping.html): `The special pathPrefix "" (the empty string) identifies the application.`
  - Tracker: [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697), [IDEA-52761](http://youtrack.jetbrains.com/issue/IDEA-52761)
 
 ![Bugs Screenshot 2](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-2.png)
@@ -45,6 +45,6 @@ Issue D
 - /com/example/checked/pages/GroovyLibraryMappedPage.tml, line 5
  - Screen Shot: `Issue D`
  - Error Message: Cannot resolve property 'text' of class '???'
- - Bug: Property expression validation is not supported with non-primary ComponentClassResolver
+ - Bug: Property expression validation is not supported with TML files when using LibraryMapping
  - Workaround: None
- - Tracker:
+ - Tracker: [IDEA-98956](http://youtrack.jetbrains.com/issue/IDEA-98956)
