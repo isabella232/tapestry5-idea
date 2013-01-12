@@ -1,0 +1,7 @@
+/.gradle
+/.idea/gradle.xml
+/.idea/tasks.xml
+/.idea/workspace.xml
+/build
+/out
+/tapestry5-idea.iml

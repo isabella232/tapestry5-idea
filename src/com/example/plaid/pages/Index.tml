@@ -1,0 +1,16 @@
+<t:border pageTitle="Home" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+	<h1>Plaid!</h1>
+
+	<p>${text}</p>
+
+	<t:randomplaid alt="Random plaid image" width="168" height="168" />
+
+	<h1>Library mapped pages:</h1>
+
+	<ul>
+		<li><t:pagelink page="foo/JavaLibraryMappedPage">Page 'foo/JavaLibraryMappedPage' from com.example.tartan</t:pagelink></li>
+		<li><t:pagelink page="GroovyLibraryMappedPage">Page 'GroovyLibraryMappedPage' from com.example.checked</t:pagelink></li>
+	</ul>
+
+</t:border>

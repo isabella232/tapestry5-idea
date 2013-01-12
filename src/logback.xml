@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="false" scan="false">
+
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+
+    <property scope="context" name="log-pattern" value="%d{yyyy-MM-dd H:mm:ss} | %-5level %logger{24}:%line - %msg%n" />
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>${log-pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.example" level="info" />
+    <logger name="org.example" level="info" />
+
+    <root level="info">
+        <appender-ref ref="stdout" />
+    </root>
+
+</configuration>
