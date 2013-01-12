@@ -12,6 +12,7 @@ Issue A
  - Error Message: Cannot resolve property 'Home' of class 'Index'
  - Bug: defaultPrefix on @Parameter is not supported
  - Workaround: Change 'pageTitle="Home"' --> 'pageTitle="literal:Home"'
+ - Tracker: [IDEA-98955](http://youtrack.jetbrains.com/issue/IDEA-98955)
 
 Issue B
 -------
@@ -23,6 +24,7 @@ Issue B
  - Error Message: Attribute height is not allowed here
  - Bug: @SupportsInformalParameters not supported
  - Workaround: None
+ - Tracker: [IDEA-52763](http://youtrack.jetbrains.com/issue/IDEA-52763)
 
 Issue C
 -------
@@ -33,6 +35,7 @@ Issue C
   - Contribute Component Class Resolver with `configuration.add(new LibraryMapping("", "com.example.checked"))`
  - Note: LibraryMappings using an non-empty string work correctly (line 12)
  - Workaround: None
+ - Tracker: [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697), [IDEA-52761](http://youtrack.jetbrains.com/issue/IDEA-52761)
 
 ![Bugs Screenshot 2](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-2.png)
 
@@ -44,3 +47,4 @@ Issue D
  - Error Message: Cannot resolve property 'text' of class '???'
  - Bug: Property expression validation is not supported with non-primary ComponentClassResolver
  - Workaround: None
+ - Tracker:
