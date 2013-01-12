@@ -6,6 +6,11 @@
 
     <display-name>IDEA Plaid Test App</display-name>
 
+    <context-param>
+        <param-name>tapestry.app-package</param-name>
+        <param-value>com.example.plaid</param-value>
+    </context-param>
+
     <filter>
         <filter-name>plaid</filter-name>
         <filter-class>org.apache.tapestry5.TapestryFilter</filter-class>

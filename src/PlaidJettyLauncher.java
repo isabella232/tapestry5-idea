@@ -19,8 +19,6 @@ public class PlaidJettyLauncher
     {
         try
         {
-            System.setProperty(InternalConstants.TAPESTRY_APP_PACKAGE_PARAM, "com.example.plaid");
-
             WebAppContext context = new WebAppContext();
             context.setContextPath("/");
             context.setWar("web");

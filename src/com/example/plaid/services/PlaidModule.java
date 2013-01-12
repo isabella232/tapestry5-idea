@@ -1,13 +1,11 @@
 package com.example.plaid.services;
 
 import com.example.checked.CheckedModule;
+import com.example.tartan.TartanModule;
 import org.apache.tapestry5.SymbolConstants;
-import org.apache.tapestry5.ioc.Configuration;
 import org.apache.tapestry5.ioc.MappedConfiguration;
 import org.apache.tapestry5.ioc.ServiceBinder;
 import org.apache.tapestry5.ioc.annotations.SubModule;
-import com.example.tartan.TartanModule;
-import org.apache.tapestry5.services.LibraryMapping;
 
 @SubModule({ CheckedModule.class, TartanModule.class })
 public class PlaidModule
