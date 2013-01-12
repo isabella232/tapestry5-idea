@@ -15,8 +15,8 @@ How to run this test application
 - Build IntelliJ classpath file: `gradle idea` (tested with Gradle version 1.3)
 - Open project in IntelliJ
  - Add Tapestry Module via Project Structure
-  - Filter Name: `plaid`
-  - Application Package: `com.example.plaid`
+     - Filter Name: `plaid`
+     - Application Package: `com.example.plaid`
  - Run `PlaidJettyLauncher` configuration
 - Test application at `http://localhost:8080/`
 
