@@ -1,7 +1,7 @@
 Tapestry 5 IntelliJ IDEA Test Project
 =====================================
 
-This is a Tapestry 5 project to exercise IntelliJ's support [Tapestry 5](http://tapestry.apache.org/)
+This is a Tapestry 5 project to exercise IntelliJ's support of [Tapestry 5](http://tapestry.apache.org/)
 code highlighting, navigation, and error detection.
 
 This app is specifically designed to use features that are typical of large Tapestry applications,
