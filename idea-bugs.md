@@ -1,4 +1,11 @@
+Examples of Validation bugs in IntelliJ IDA Tapestry Plugin
+===========================================================
+Current as of IDEA 12.0.1 (#IU-123.94)
+
 ![Bugs Screenshot 1](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-1.png)
+
+Issue A
+-------
 
 - /com/example/plaid/pages/Index.tml, line 1
  - Screen Shot: `Issue A`
@@ -6,6 +13,8 @@
  - Bug: defaultPrefix on @Parameter is not supported
  - Workaround: Change 'pageTitle="Home"' --> 'pageTitle="literal:Home"'
 
+Issue B
+-------
 - /com/example/plaid/pages/Index.tml, line 5
  - Screen Shot: `Issue B`
  - Error Message: Attribute alt is not allowed here
@@ -15,6 +24,8 @@
  - Bug: @SupportsInformalParameters not supported
  - Workaround: None
 
+Issue C
+-------
 - /com/example/plaid/pages/Index.tml, line 13
  - Screen Shot: `Issue C`
  - Error Message: Cannot resolve symbol 'GroovyLibraryMappedPage'
@@ -25,6 +36,8 @@
 
 ![Bugs Screenshot 2](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-2.png)
 
+Issue D
+-------
 - /com/example/tartan/pages/JavaLibraryMappedPage.tml, line 5
 - /com/example/checked/pages/GroovyLibraryMappedPage.tml, line 5
  - Screen Shot: `Issue D`

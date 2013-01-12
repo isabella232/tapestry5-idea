@@ -7,7 +7,7 @@ code highlighting, navigation, and error detection.
 This app is specifically designed to use features that are typical of large Tapestry applications,
 but distilled to the bare essentials to allow easier isolation of bugs in the IntelliJ Tapestry plugin.
 
-Isolated bugs are listed in the file `idea-bugs.md`
+Isolated bugs are listed in the file [idea-bugs.md](https://github.com/Widen/tapestry5-idea/blob/master/idea-bugs.md)
 
 How to run this test application
 --------------------------------
