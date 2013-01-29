@@ -4,6 +4,6 @@
 
 	<p>${text}</p>
 
-	<t:randomplaid alt="Random plaid image" width="168" height="168" />
+	<t:randomplaid alt="Random plaid image" foo="bar" width="168" height="168" />
 
 </t:border>

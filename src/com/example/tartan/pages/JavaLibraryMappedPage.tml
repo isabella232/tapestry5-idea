@@ -1,9 +1,9 @@
-<t:border pageTitle="literal:Java Library Test" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+<t:border pageTitle="Java Library Test" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
 
 	<h1>Plaid!</h1>
 
 	<p>${text}</p>
 
-	<t:randomplaid alt="Random plaid image" width="168" height="168" />
+	<t:randomplaid alt="literal:Random plaid image" foo="literal:bar" width="168" height="168" />
 
 </t:border>
