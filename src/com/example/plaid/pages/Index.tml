@@ -9,7 +9,7 @@
 	<h1>Library mapped pages:</h1>
 
 	<ul>
-		<li><t:pagelink page="foo/JavaLibraryMappedPage">Page 'foo/JavaLibraryMappedPage' from com.example.tartan</t:pagelink></li>
+		<li><t:pagelink page="JavaLibraryMappedPage">Page 'JavaLibraryMappedPage' from com.example.tartan</t:pagelink></li>
 		<li><t:pagelink page="GroovyLibraryMappedPage">Page 'GroovyLibraryMappedPage' from com.example.checked</t:pagelink></li>
 	</ul>
 

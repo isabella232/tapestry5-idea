@@ -8,7 +8,7 @@ public class TartanModule
 
     public static void contributeComponentClassResolver(Configuration<LibraryMapping> configuration)
     {
-        configuration.add(new LibraryMapping("j", "com.example.tartan"));
+        configuration.add(new LibraryMapping("", "com.example.tartan"));
     }
 
 }
