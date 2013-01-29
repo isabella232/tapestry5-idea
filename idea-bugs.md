@@ -24,21 +24,22 @@ Issue B.1
  - ~~Bug: @SupportsInformalParameters not supported~~
  - Tracker: (__fixed IDEA 12 >= 123.152__) [IDEA-52763](http://youtrack.jetbrains.com/issue/IDEA-52763)
 
-Issue B.2
+Issue B.2 (related to Issue A?)
 -------
 - /com/example/plaid/pages/Index.tml, line 5
  - Screen Shot: `Issue B`
  - Error Message: Cannot resolve property 'Random' of class 'Index'
  - Workaround: None
- - Tracker: [IDEA-52763](http://youtrack.jetbrains.com/issue/IDEA-52763)
 
 Issue C
 -------
 - /com/example/plaid/pages/Index.tml, line 13
  - Screen Shot: `Issue C`
- - ~~Error Message: Cannot resolve symbol 'GroovyLibraryMappedPage'~~
+ - Error Message (line 12): Cannot resolve symbol 'JavaLibraryMappedPage'
+ - Error Message (line 13): Cannot resolve symbol 'GroovyLibraryMappedPage'
  - ~~Bug: Groovy based components are not resolvable~~
-  - [Javadoc](http://tapestry.apache.org/current/apidocs/org/apache/tapestry5/services/LibraryMapping.html): `The special pathPrefix "" (the empty string) identifies the application.`
+ - Bug: Multiple Library Mappings to the same path confuse the editor
+  - If library mappings are modified editor errors are 'fixed' [diff to remove errors](https://github.com/Widen/tapestry5-idea/compare/master...unique-library-mappings)
  - Tracker:  - Tracker: (__partially fixed in IDEA 12 >= 123.152__ - related to Groovy component) [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697), [IDEA-52761](http://youtrack.jetbrains.com/issue/IDEA-52761)
 
 ![Bugs Screenshot 2](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-2.png)
@@ -46,9 +47,9 @@ Issue C
 Issue D
 -------
 - /com/example/tartan/pages/JavaLibraryMappedPage.tml, line 5
-- ~~/com/example/checked/pages/GroovyLibraryMappedPage.tml, line 5~~ (fixed via [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697))
+- /com/example/checked/pages/GroovyLibraryMappedPage.tml, line 5
+ - __This issue may be related to Issue C.
  - Screen Shot: `Issue D`
  - Error Message: Cannot resolve property 'text' of class '???'
- - Bug: Property expression validation is not supported when JavaBean 'setter' is not present
  - Workaround: Create
  - Tracker: [IDEA-98956](http://youtrack.jetbrains.com/issue/IDEA-98956)
