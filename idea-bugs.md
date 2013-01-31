@@ -1,5 +1,5 @@
-Examples of Validation bugs in IntelliJ IDA Tapestry Plugin
-===========================================================
+Examples of Validation bugs in IntelliJ IDEA Tapestry 5 Plugin
+==============================================================
 Current as of IDEA 12.0.3 (#IU-123.155)
 
 ![Bugs Screenshot 1](https://github.com/Widen/tapestry5-idea/raw/master/bugs-screenshot-1.png)
@@ -15,8 +15,8 @@ Issue A
 
 Issue B
 -------
- - Tracker: __fixed in IDEA 12.0.3 (build >= 123.155)__ [IDEA-52763](http://youtrack.jetbrains.com/issue/IDEA-52763)
+ - Tracker: [IDEA-52763](http://youtrack.jetbrains.com/issue/IDEA-52763) __fixed in IDEA 12.0.3 (build >= 123.155)__
 
 Issue C
 -------
- - Tracker: __fixed in IDEA 12.0.3 (build >= 123.155)__ [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697)
+ - Tracker: [IDEA-24697](http://youtrack.jetbrains.com/issue/IDEA-24697) __fixed in IDEA 12.0.3 (build >= 123.155)__
