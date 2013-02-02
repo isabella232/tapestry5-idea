@@ -4,7 +4,7 @@
 
 	<p>${text}</p>
 
-	<t:randomplaid alt="Random plaid image" foo="bar" width="168" height="168" />
+	<t:randomplaid alt="message:alt-text-from-message-catalog" foo="literal:bar-baz" width="168" height="168" />
 
 	<h1>Library mapped pages:</h1>
 
