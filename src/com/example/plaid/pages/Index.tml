@@ -6,6 +6,8 @@
 
 	<t:randomplaid alt="message:alt-text-from-message-catalog" foo="literal:bar-baz" width="168" height="168" />
 
+    <p>${message:question-to-life} ${message:answer-to-life}</p>
+
 	<h1>Library mapped pages:</h1>
 
 	<ul>
