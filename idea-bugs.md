@@ -14,14 +14,14 @@ Issue B
 ![Bugs Screenshot 2](bugs-screenshot-2.png)
  - Bug: Properties file editor incorrect highlights keys as 'unused' when referenced in TML file as ${message:property-key}
  - Workaround: Use `messages.get('property-key')` in backing class file
- - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
+ - Tracker: [IDEA-100796](http://youtrack.jetbrains.com/issue/IDEA-100796)
 
 Issue C
 -------
 ![Bugs Screenshot 3](bugs-screenshot-3.png)
  - Bug: Tapestry 'parameter' namespace elements are incorrectly marked in error in TML editor
  - Workaround: None
- - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
+ - Tracker: [IDEA-100807](http://youtrack.jetbrains.com/issue/IDEA-100807)
 
 Resolved Issues
 ---------------
