@@ -28,15 +28,15 @@ Issue D
 ![Bugs Screenshot 3](bugs-screenshot-4.png)
  - Bug: Tapestry loop 'value' elements are incorrectly marked as errors in TML editor
  - Workaround: None
- - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
+ - Tracker: [IDEA-106998](http://youtrack.jetbrains.com/issue/IDEA-106998)
 
 Issue E
 -------
 ![Bugs Screenshot 3](bugs-screenshot-5a.png)
 ![Bugs Screenshot 3](bugs-screenshot-5b.png)
- - Bug: Renamed properties in .TML file are modified incorrectly; are prefixed with 'get'
+ - Bug: Renamed properties in .TML file are modified incorrectly; are prefixed with 'get' (e.g. `${myProp}` is renamed to `${getMyPropRenamed}`
  - Workaround: None
- - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
+ - Tracker: [IDEA-107000](http://youtrack.jetbrains.com/issue/IDEA-107000)
 
 Resolved Issues
 ---------------
