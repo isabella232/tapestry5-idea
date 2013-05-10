@@ -1,6 +1,6 @@
 Examples of Validation bugs in IntelliJ IDEA Tapestry 5 Plugin
 ==============================================================
-Current as of IDEA 12.0.4 (EAP IU-123.165)
+Current as of IDEA 12.1.3 (EAP IU-129.400)
 
 Issue A
 -------
@@ -22,6 +22,21 @@ Issue C
  - Bug: Tapestry 'parameter' namespace elements are incorrectly marked in error in TML editor
  - Workaround: None
  - Tracker: [IDEA-100807](http://youtrack.jetbrains.com/issue/IDEA-100807)
+
+Issue D
+-------
+![Bugs Screenshot 3](bugs-screenshot-4.png)
+ - Bug: Tapestry loop 'value' elements are incorrectly marked as errors in TML editor
+ - Workaround: None
+ - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
+
+Issue E
+-------
+![Bugs Screenshot 3](bugs-screenshot-5a.png)
+![Bugs Screenshot 3](bugs-screenshot-5b.png)
+ - Bug: Renamed properties in .TML file are modified incorrectly; are prefixed with 'get'
+ - Workaround: None
+ - Tracker: [IDEA-](http://youtrack.jetbrains.com/issue/IDEA-)
 
 Resolved Issues
 ---------------

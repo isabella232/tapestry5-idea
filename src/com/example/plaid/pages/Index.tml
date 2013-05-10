@@ -8,6 +8,14 @@
 
     <p>${message:question-to-life} ${message:answer-to-life}</p>
 
+    <h1>Prime Numbers...</h1>
+    <t:loop source="primeNumbers" value="currentPrime">
+        <h3>${currentPrime}</h3>
+    </t:loop>
+
+    <h1>Rename Property Bug</h1>
+    <h3>${plaidPropertyOne} <t:outputraw value="plaidPropertyOne" /></h3>
+
 	<h1>Library mapped pages:</h1>
 
 	<ul>
