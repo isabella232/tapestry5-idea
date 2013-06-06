@@ -1,0 +1,17 @@
+<t:border pageTitle="Persist Bug" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+    <h1>@Persist bug with Groovy closures and private fields without getter accessor</h1>
+
+    <t:if test="productionModeEnabled">
+        And we're OK!
+    </t:if>
+
+    <t:unless test="productionModeEnabled">
+        Set 'tapestry.production-mode = true' in <code>com.example.plaid.services.PlaidModule</code> to fail with error message<br/>
+        <code>java.lang.NullPointerException: Cannot invoke method leftShift() on null object</code><br/><br/>
+        2 workarounds are listed in PersistBug.groovy
+    </t:unless>
+
+    <pre>${output}</pre>
+
+</t:border>

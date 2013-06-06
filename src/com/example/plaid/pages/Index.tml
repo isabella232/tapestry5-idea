@@ -2,6 +2,10 @@
 
 	<h1>Plaid!</h1>
 
+    <h1>
+        <t:pagelink page="persistbug">Persist Bug Page</t:pagelink>
+    </h1>
+
 	<p>${text}</p>
 
 	<t:randomplaid alt="message:alt-text-from-message-catalog" foo="literal:bar-baz" width="168" height="168" />
