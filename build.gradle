@@ -14,14 +14,14 @@ configurations {
 }
 
 dependencies {
-    groovy group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
+    groovy group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.8'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.8'
 
     // Logging
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.9'
 
     // Tapestry 5
-    ext.tapestryVersion = '5.3.6'
+    ext.tapestryVersion = '5.3.7'
     compile group: 'org.apache.tapestry', name: 'tapestry5-annotations', version: tapestryVersion
     compile group: 'org.apache.tapestry', name: 'tapestry-core', version: tapestryVersion
     runtime group: 'org.apache.tapestry', name: 'tapestry-func', version: tapestryVersion
