@@ -1,10 +1,9 @@
 package com.example.plaid.pages
 import org.apache.tapestry5.SymbolConstants
-import org.apache.tapestry5.annotations.Persist
 import org.apache.tapestry5.ioc.annotations.Inject
 import org.apache.tapestry5.ioc.annotations.Symbol
 
-class PersistBug
+class FieldBug
 {
 
     @Inject
@@ -12,7 +11,6 @@ class PersistBug
     boolean productionModeEnabled
 
     // workaround A -- change words field from 'private' to 'default' (no modifier) access
-    @Persist
     private List<String> words
 
     // workaround B -- create a 'getter' method; as below
