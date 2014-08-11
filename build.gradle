@@ -14,8 +14,8 @@ configurations {
 }
 
 dependencies {
-    groovy group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.8'
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.8'
+    groovy group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.1.4'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.1.4'
 
     // Logging
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.9'

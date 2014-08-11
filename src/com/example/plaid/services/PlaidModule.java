@@ -18,7 +18,7 @@ public class PlaidModule
 
     public static void contributeApplicationDefaults(MappedConfiguration<String, Object> configuration)
     {
-        configuration.add(SymbolConstants.PRODUCTION_MODE, true);
+        configuration.add(SymbolConstants.PRODUCTION_MODE, false);
     }
 
 }

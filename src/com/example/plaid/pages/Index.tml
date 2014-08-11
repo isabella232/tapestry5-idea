@@ -23,8 +23,8 @@
 	<h1>Library mapped pages:</h1>
 
 	<ul>
-		<li><t:pagelink page="JavaLibraryMappedPage">Page 'JavaLibraryMappedPage' from com.example.tartan</t:pagelink></li>
-		<li><t:pagelink page="GroovyLibraryMappedPage">Page 'GroovyLibraryMappedPage' from com.example.checked</t:pagelink></li>
+		<li><t:pagelink page="JavaLibraryMappedPage" class="prop:classBar">Page 'JavaLibraryMappedPage' from com.example.tartan</t:pagelink></li>
+		<li><t:pagelink page="GroovyLibraryMappedPage" class="class1 class2">Page 'GroovyLibraryMappedPage' from com.example.checked</t:pagelink></li>
 	</ul>
 
 </t:border>

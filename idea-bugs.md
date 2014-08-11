@@ -38,6 +38,13 @@ Issue E
  - Workaround: None
  - Tracker: [IDEA-107000](http://youtrack.jetbrains.com/issue/IDEA-107000)
 
+ Issue F
+ -------
+ ![Bugs Screenshot 3](bugs-screenshot-6.png)
+  - Bug: Value of "class" attribute in Tapestry components is always treated as an expression
+  - Workaround: Prefix attribute value with "literal:"
+  - Tracker: [IDEA-128473](http://youtrack.jetbrains.com/issue/IDEA-128473)
+
 Resolved Issues
 ---------------
  - [IDEA-98955](http://youtrack.jetbrains.com/issue/IDEA-98955) __fixed in IDEA 12.0.4 (build >= 123.165)__
