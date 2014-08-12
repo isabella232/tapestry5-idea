@@ -17,6 +17,9 @@ public class Index
     @Property
     private String currentPrime;
 
+	@Property
+	private String newDescription;
+
     public String getText()
     {
         return messages.get("key-used-in-page-klass");
