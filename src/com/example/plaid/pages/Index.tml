@@ -27,4 +27,12 @@
 		<li><t:pagelink page="GroovyLibraryMappedPage" class="class1 class2">Page 'GroovyLibraryMappedPage' from com.example.checked</t:pagelink></li>
 	</ul>
 
+	<h1>Label attributes</h1>
+
+	<t:label for="description"/>
+
+
+	<t:textfield t:id="description" size="52" value="newDescription"/>
+
+
 </t:border>

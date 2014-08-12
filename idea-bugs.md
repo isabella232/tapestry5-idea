@@ -45,6 +45,13 @@ Issue E
   - Workaround: Prefix attribute value with "literal:"
   - Tracker: [IDEA-128473](http://youtrack.jetbrains.com/issue/IDEA-128473)
 
+Issue G
+-------
+![Bugs Screenshot 7](bugs-screenshot-7.png)
+ - Bug: False warning about unresolvable properties for labels
+ - Workaround: None
+ - Tracker: [IDEA-128498](http://youtrack.jetbrains.com/issue/IDEA-128498)
+
 Resolved Issues
 ---------------
  - [IDEA-98955](http://youtrack.jetbrains.com/issue/IDEA-98955) __fixed in IDEA 12.0.4 (build >= 123.165)__
