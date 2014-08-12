@@ -29,10 +29,12 @@
 
 	<h1>Label attributes</h1>
 
-	<t:label for="description"/>
+    <t:form>
+        <t:label for="description"/>
 
 
-	<t:textfield t:id="description" size="52" value="newDescription"/>
+        <t:textfield t:id="description" size="52" value="newDescription"/>
+    </t:form>
 
 
 </t:border>
