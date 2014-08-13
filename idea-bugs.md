@@ -52,6 +52,13 @@ Issue G
  - Workaround: None
  - Tracker: [IDEA-128498](http://youtrack.jetbrains.com/issue/IDEA-128498)
 
+Issue H
+-------
+![Bugs Screenshot 8](bugs-screenshot-8.png)
+ - Bug: Boolean context values are marked as warning
+ - Workaround: None
+ - Tracker: [IDEA-128531](http://youtrack.jetbrains.com/issue/IDEA-128531)
+
 Resolved Issues
 ---------------
  - [IDEA-98955](http://youtrack.jetbrains.com/issue/IDEA-98955) __fixed in IDEA 12.0.4 (build >= 123.165)__
